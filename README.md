@@ -1,9 +1,3 @@
-# My Helm Chart
-
-This Helm chart deploys a sample nginx application.
-
-
-
 ## Default Values
 
 The following is the default `values.yaml` file for this Helm chart:
@@ -32,9 +26,8 @@ autoscaling:
   enabled: true
   replicaCount: 1
 
-------
-
 Customization
+
 You can customize the chart by providing a custom values.yaml file. For example, to deploy with a different name, create a my-custom-values.yaml file with the following content:
 
 ```bash
