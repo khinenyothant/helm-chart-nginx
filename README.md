@@ -1,3 +1,15 @@
+## My Helm Chart
+
+This Helm chart deploys a sample nginx application.
+
+## Installation
+
+To install the chart, use the following command:
+
+```bash
+helm install my-release myrepo/kntchart
+```
+
 ## Default Values
 
 The following is the default `values.yaml` file for this Helm chart:
@@ -25,10 +37,11 @@ service:
 autoscaling:
   enabled: true
   replicaCount: 1
-
-Customization
+```
+## Customization
 
 You can customize the chart by providing a custom values.yaml file. For example, to deploy with a different name, create a my-custom-values.yaml file with the following content:
 
 ```bash
 helm install my-release myrepo/kntchart -f my-custom-values.yaml
+```
