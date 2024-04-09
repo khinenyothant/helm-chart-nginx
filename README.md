@@ -38,6 +38,7 @@ autoscaling:
   replicaCount: 1
 
 
+
 Customization
 You can customize the chart by providing a custom values.yaml file. For example, to deploy with a different name, create a my-custom-values.yaml file with the following content:
 
